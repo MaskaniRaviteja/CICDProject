@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="10" passed="10" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-12-14T23:09:42 IST" name="Parallel Suite" finished-at="2024-12-14T23:10:12 IST" duration-ms="30050">
+  <suite started-at="2024-12-14T23:33:25 IST" name="Parallel Suite" finished-at="2024-12-14T23:33:52 IST" duration-ms="27206">
     <groups>
     </groups>
-    <test started-at="2024-12-14T23:09:42 IST" name="Firefox Test" finished-at="2024-12-14T23:10:12 IST" duration-ms="30050">
+    <test started-at="2024-12-14T23:33:25 IST" name="Firefox Test" finished-at="2024-12-14T23:33:50 IST" duration-ms="25803">
       <class name="common.MenuTests">
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:common.MenuTests@65f8f5ae]" started-at="2024-12-14T23:09:42 IST" name="setUp" finished-at="2024-12-14T23:09:55 IST" duration-ms="12704" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:common.MenuTests@65f8f5ae]" started-at="2024-12-14T23:33:25 IST" name="setUp" finished-at="2024-12-14T23:33:36 IST" duration-ms="11703" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,35 +18,35 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="verifyMenuItems()[pri:1, instance:common.MenuTests@65f8f5ae]" started-at="2024-12-14T23:09:55 IST" name="verifyMenuItems" finished-at="2024-12-14T23:09:56 IST" duration-ms="1262" status="PASS">
+        <test-method signature="verifyMenuItems()[pri:1, instance:common.MenuTests@65f8f5ae]" started-at="2024-12-14T23:33:36 IST" name="verifyMenuItems" finished-at="2024-12-14T23:33:38 IST" duration-ms="1523" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyMenuItems -->
-        <test-method signature="validateMenuTitles()[pri:2, instance:common.MenuTests@65f8f5ae]" started-at="2024-12-14T23:09:56 IST" name="validateMenuTitles" finished-at="2024-12-14T23:09:58 IST" duration-ms="1506" status="PASS">
+        <test-method signature="validateMenuTitles()[pri:2, instance:common.MenuTests@65f8f5ae]" started-at="2024-12-14T23:33:38 IST" name="validateMenuTitles" finished-at="2024-12-14T23:33:40 IST" duration-ms="1612" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateMenuTitles -->
-        <test-method signature="validateUniqueLinks()[pri:3, instance:common.MenuTests@65f8f5ae]" started-at="2024-12-14T23:09:58 IST" name="validateUniqueLinks" finished-at="2024-12-14T23:09:59 IST" duration-ms="1440" status="PASS">
+        <test-method signature="validateUniqueLinks()[pri:3, instance:common.MenuTests@65f8f5ae]" started-at="2024-12-14T23:33:40 IST" name="validateUniqueLinks" finished-at="2024-12-14T23:33:40 IST" duration-ms="408" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateUniqueLinks -->
-        <test-method signature="verifyMyAccountPageElements()[pri:4, instance:common.MenuTests@65f8f5ae]" started-at="2024-12-14T23:09:59 IST" name="verifyMyAccountPageElements" finished-at="2024-12-14T23:10:06 IST" duration-ms="7256" status="PASS">
+        <test-method signature="verifyMyAccountPageElements()[pri:4, instance:common.MenuTests@65f8f5ae]" started-at="2024-12-14T23:33:40 IST" name="verifyMyAccountPageElements" finished-at="2024-12-14T23:33:45 IST" duration-ms="5545" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyMyAccountPageElements -->
-        <test-method signature="extractDashboardText()[pri:5, instance:common.MenuTests@65f8f5ae]" started-at="2024-12-14T23:10:06 IST" name="extractDashboardText" finished-at="2024-12-14T23:10:07 IST" duration-ms="384" status="PASS">
+        <test-method signature="extractDashboardText()[pri:5, instance:common.MenuTests@65f8f5ae]" started-at="2024-12-14T23:33:46 IST" name="extractDashboardText" finished-at="2024-12-14T23:33:46 IST" duration-ms="265" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- extractDashboardText -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:common.MenuTests@65f8f5ae]" started-at="2024-12-14T23:10:07 IST" name="tearDown" finished-at="2024-12-14T23:10:12 IST" duration-ms="5398" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:common.MenuTests@65f8f5ae]" started-at="2024-12-14T23:33:46 IST" name="tearDown" finished-at="2024-12-14T23:33:50 IST" duration-ms="4634" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- common.MenuTests -->
     </test> <!-- Firefox Test -->
-    <test started-at="2024-12-14T23:09:42 IST" name="Chrome Test" finished-at="2024-12-14T23:10:12 IST" duration-ms="30044">
+    <test started-at="2024-12-14T23:33:25 IST" name="Chrome Test" finished-at="2024-12-14T23:33:52 IST" duration-ms="27206">
       <class name="common.MenuTests">
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:common.MenuTests@76494737]" started-at="2024-12-14T23:09:42 IST" name="setUp" finished-at="2024-12-14T23:09:54 IST" duration-ms="11958" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:common.MenuTests@76494737]" started-at="2024-12-14T23:33:25 IST" name="setUp" finished-at="2024-12-14T23:33:34 IST" duration-ms="9663" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -57,27 +57,27 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="verifyMenuItems()[pri:1, instance:common.MenuTests@76494737]" started-at="2024-12-14T23:09:54 IST" name="verifyMenuItems" finished-at="2024-12-14T23:09:56 IST" duration-ms="2207" status="PASS">
+        <test-method signature="verifyMenuItems()[pri:1, instance:common.MenuTests@76494737]" started-at="2024-12-14T23:33:34 IST" name="verifyMenuItems" finished-at="2024-12-14T23:33:37 IST" duration-ms="2324" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyMenuItems -->
-        <test-method signature="validateMenuTitles()[pri:2, instance:common.MenuTests@76494737]" started-at="2024-12-14T23:09:56 IST" name="validateMenuTitles" finished-at="2024-12-14T23:09:57 IST" duration-ms="219" status="PASS">
+        <test-method signature="validateMenuTitles()[pri:2, instance:common.MenuTests@76494737]" started-at="2024-12-14T23:33:37 IST" name="validateMenuTitles" finished-at="2024-12-14T23:33:38 IST" duration-ms="1080" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateMenuTitles -->
-        <test-method signature="validateUniqueLinks()[pri:3, instance:common.MenuTests@76494737]" started-at="2024-12-14T23:09:57 IST" name="validateUniqueLinks" finished-at="2024-12-14T23:09:57 IST" duration-ms="512" status="PASS">
+        <test-method signature="validateUniqueLinks()[pri:3, instance:common.MenuTests@76494737]" started-at="2024-12-14T23:33:38 IST" name="validateUniqueLinks" finished-at="2024-12-14T23:33:38 IST" duration-ms="494" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateUniqueLinks -->
-        <test-method signature="verifyMyAccountPageElements()[pri:4, instance:common.MenuTests@76494737]" started-at="2024-12-14T23:09:57 IST" name="verifyMyAccountPageElements" finished-at="2024-12-14T23:10:10 IST" duration-ms="12637" status="PASS">
+        <test-method signature="verifyMyAccountPageElements()[pri:4, instance:common.MenuTests@76494737]" started-at="2024-12-14T23:33:38 IST" name="verifyMyAccountPageElements" finished-at="2024-12-14T23:33:51 IST" duration-ms="12298" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyMyAccountPageElements -->
-        <test-method signature="extractDashboardText()[pri:5, instance:common.MenuTests@76494737]" started-at="2024-12-14T23:10:10 IST" name="extractDashboardText" finished-at="2024-12-14T23:10:10 IST" duration-ms="146" status="PASS">
+        <test-method signature="extractDashboardText()[pri:5, instance:common.MenuTests@76494737]" started-at="2024-12-14T23:33:51 IST" name="extractDashboardText" finished-at="2024-12-14T23:33:51 IST" duration-ms="121" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- extractDashboardText -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:common.MenuTests@76494737]" started-at="2024-12-14T23:10:10 IST" name="tearDown" finished-at="2024-12-14T23:10:12 IST" duration-ms="2247" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:common.MenuTests@76494737]" started-at="2024-12-14T23:33:51 IST" name="tearDown" finished-at="2024-12-14T23:33:52 IST" duration-ms="1093" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
