@@ -78,7 +78,6 @@ public class New_Version {
 	public void Setmenus() {
 		System.out.println("Started testcase-3");
 
-//New changes
 		// Retrieve all hyperlinks on the page
 		List<WebElement> links = driver.findElements(By.xpath("//*[contains(@id,'menu-item')]/a"));
 
