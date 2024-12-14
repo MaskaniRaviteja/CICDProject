@@ -47,7 +47,7 @@ public class New_Version {
 	}
 
 	// Main list
-	@Test(priority = 1, enabled = false)
+	@Test(priority = 1, enabled = true)
 	public void menus() {
 		List<WebElement> menulist = driver.findElements(By.xpath("//*[contains(@id,'menu-item')]/a"));
 		for (WebElement menus : menulist) {
@@ -55,7 +55,7 @@ public class New_Version {
 		}
 	}
 
-	@Test(priority = 2, enabled = false)
+	@Test(priority = 2, enabled = true)
 	public void arraymenus() {
 		System.out.println("Started testcase-2");
 
@@ -74,7 +74,7 @@ public class New_Version {
 	}
 
 	// 3. Set: Ensuring Unique Data (e.g., Unique Links, Tags)
-	@Test(priority = 3, enabled = false)
+	@Test(priority = 3, enabled = true)
 	public void Setmenus() {
 		System.out.println("Started testcase-3");
 
@@ -98,7 +98,7 @@ public class New_Version {
 
 	}
 
-	@Test(priority = 4, enabled = false)
+	@Test(priority = 4, enabled = true)
 	public void mapmenus() {
 	    // Navigate to My Account
 	    driver.findElement(By.xpath("//a[text()='My Account']")).click();
